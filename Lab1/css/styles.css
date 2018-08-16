@@ -1,0 +1,54 @@
+/* 
+Lorraine Bichara Assad, A0119363
+Lab 1 
+*/
+
+body {
+    background-color: #d7dbdd;
+}
+
+h1, h2, h3, h6 {
+    color: #0B3B7B;
+}
+
+/*div {
+  width: 640px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}*/
+
+.text {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#title {
+	font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+	padding-top: 2px;
+}
+
+#slogan {
+	color: #1e8449;
+	position: relative;
+	bottom: 20px;
+	left: 150px;
+}
+
+#logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding-right: 15px;
+}
+
+#login {
+	float:left;
+}
+
+#register {
+	float: left;
+	padding-left: 50px;
+}
+
+#footer {
+	clear: both;
+}
