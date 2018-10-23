@@ -1,0 +1,158 @@
+/* 
+Lorraine Bichara Assad, A0119363
+Lab 2
+*/
+
+body {
+    background-color: white;
+}
+
+h1, h2, h3, h6 {
+    color: #0B3B7B;
+    font-family: Verdana, sans-serif;
+}
+
+fieldset {
+	width: 500px;
+	border: 2px solid #d7dbdd;
+}
+
+input::placeholder {
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 13px;
+	width: 50px;
+}
+
+input {
+	margin-right: 20px;
+	height: 20px;
+	font-size: 13px;
+}
+
+#header {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden; /*all of the page elements are recognized*/
+	background-color: #d7dbdd;
+	height: 80px;
+}
+
+.longerfield {
+	padding-right: 50px;
+}
+
+.text {
+	font-family: Helvetica Neue, sans-serif;
+}
+
+#title {
+	font-family: Impact, sans-serif;
+	margin-top: 10px;
+}
+
+#slogan {
+	color: #1e8449;
+	position: relative;
+	bottom: 20px;
+	left: 150px;
+}
+
+#logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding-right: 15px;
+}
+
+#login {
+	float: left;
+	padding-right: 50px;
+	margin-left: 50px;
+}
+
+#register {
+	padding-left: 100px;
+}
+
+#footer {
+	clear: both;
+}
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	overflow: hidden; /*all of the page elements are recognized*/
+}
+
+#menu > li {
+	float: right;
+	padding: 5px;
+	margin-right: 5px;
+	/*center: from top-bottom, left: from left-right, background color to fill up everything else*/
+	/*background-image: background-repeat: background-position: (both) and background-color: */
+}
+
+#menu > li:hover {
+	background-color: #9c9c9c;
+	color: white;
+	cursor: pointer;
+}
+
+#homeimage {
+	width: 20px;
+	height: 20px;
+}
+
+#homelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.home {
+	background-color: #d7dbdd;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+	text-align: center;
+	padding: 0;
+	color: blue;
+	border: 0;
+	width: 60px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 8px;
+	background-color: #d7dbdd;
+}
+
+.buttons:hover {
+	cursor:pointer;
+	background-color: #838586;
+}
+
+#homebutton {
+	background-color: #ffffff;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div > span {
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align: center;
+}
